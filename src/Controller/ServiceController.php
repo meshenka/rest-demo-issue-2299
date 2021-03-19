@@ -22,7 +22,7 @@ class ServiceController extends AbstractFOSRestController
     }
 
     /**
-     * @Rest\Post("/stop", name="service_stop")
+     * @Rest\POST("/stop", name="service_stop")
      */
     public function stop(): Response
     {
